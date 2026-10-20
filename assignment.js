@@ -61,10 +61,10 @@ function isPalidrome(str){
 
         return check(left + 1, right -1);
     }
-    return check(0,str.lenght -1);
+    return check(0, str.length - 1);
 }
 
-console.log("Palidrone:", isPalidrome("peep"));
-console.log("Palidrone:", isPalidrome("civic"));
-console.log("Palidrone:", isPalidrome("race car!"));
-console.log("Palidrone:", isPalidrome("tomorrow"));
+console.log("Palidrome:", isPalidrome("peep"));
+console.log("Palidrome:", isPalidrome("civic"));
+console.log("Palidrome:", isPalidrome("race car!"));
+console.log("Palidrome:", isPalidrome("tomorrow"));
